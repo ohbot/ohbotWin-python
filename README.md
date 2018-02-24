@@ -338,8 +338,6 @@ Use any of the following arguments:
 
 For Example:
 ```python
-reading = ohbot.readSensor(3)
-
 ohbot.setVoice("-a82 -r12 -vzira")
 
 ```
