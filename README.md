@@ -17,11 +17,12 @@ Setup
 Install the latest version of Python from [here.](https://www.python.org/downloads/release/python-364/)
 
 
-<a href="https://github.com/ohbot/ohbotWin-python/blob/master/images/image1-22.png" target="_blank"><img src="https://github.com/ohbot/ohbotWin-python/blob/master/images/image1-22.png" border="0" width = "65%"/></a>
 
 We chose version 3.6 Windows x86-64 executable installer.
 
-During the Install make sure that the pip option is selected
+<a href="https://github.com/ohbot/ohbotWin-python/blob/master/images/screenshot4.jpg" target="_blank"><img src="https://github.com/ohbot/ohbotWin-python/blob/master/images/screenshot4.jpg" border="0" width = "65%"/></a>
+
+Tick the option to Add Python 3.6 to PATH then click on Install Now.
 
 Once install is complete type “Command” into the Windows search box.  Right click on <b>Command Prompt </b> and select <b>Run as administrator.</b>
 
