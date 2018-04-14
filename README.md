@@ -108,7 +108,7 @@ Required:
 * PC Running Windows.
 * Ohbot
 * USB Y Cable
-* USB Power Socket Adaptor
+* A 5 volt 1 amp USB power supply (for Ohbot)
 * Speakers/headphones.
 
 
