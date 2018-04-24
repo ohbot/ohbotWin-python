@@ -30,7 +30,7 @@ sensors = [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
 # define a module level variable for the serial port
 port=""
 # define library version
-version ="1.13"
+version ="2.2"
 global writing, voice, synthesizer
 # flag to stop writing when writing for threading
 writing = False
@@ -58,7 +58,7 @@ def is_digit(n):
 def ParseSAPIVoice(flag):
     pos = voice.find("-" + flag)
     val = ""
-    if (pos != None):
+    if ((pos != None) and (pos >= 0)):
         val = voice[pos+2:]
         pos = val.find(" ")
         if ((pos != None) and (pos > 0)):
@@ -378,15 +378,11 @@ def limit(val):
 
 # Function to play back the speech wav file, if hmdi audio is being used play silence before speech sound
 def saySpeech(addSilence):
-
-    if addSilence:            
-        dir = os.path.dirname(os.path.abspath(__file__))
-        silenceFile = os.path.join(dir, 'Silence1.wav')       
-        winsound.Playsound(silenceFile, winsound.SND_FILENAME)
-        
-    win.Playsound('ohbotspeech.wav', winsound.SND_FILENAME) 
-        
-        
+    if addSilence:
+        winsound.PlaySound('Silence1.wav\nohbotspeech.wav', winsound.SND_FILENAME)        
+    else:
+        winsound.PlaySound('ohbotspeech.wav', winsound.SND_FILENAME)        
+   
 # Function to move Ohbot's lips in time with speech. Arguments | phonemes → list of phonemes[] | waits → list of waits[]
 def moveSpeech(phonemes, times):
     startTime = time.time()
