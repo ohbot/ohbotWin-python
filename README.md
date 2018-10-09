@@ -38,6 +38,8 @@ Type the folloing:
 
 ``pip install ohbotWin``
 
+To upgrade to the latest version of the library run the following in the console:
+```sudo pip3 install ohbotWin --upgrade```
 
 Installing more voices (optional)
 --------
