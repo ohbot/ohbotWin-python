@@ -1,4 +1,4 @@
-The main [Picoh Python package] (https://github.com/ohbot/picoh-python) now supports Windows so please use that package from now on. All future development will be on [Picoh Python] (https://github.com/ohbot/picoh-python). 
+The main [Picoh Python package](https://github.com/ohbot/picoh-python) now supports Windows so please use that package from now on. All future development will be on [Picoh Python](https://github.com/ohbot/picoh-python). 
 
 
 # Ohbot for Python (Windows Version)
