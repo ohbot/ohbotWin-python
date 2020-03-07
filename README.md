@@ -1,7 +1,7 @@
-The main [Picoh Python package](https://github.com/ohbot/picoh-python) now supports Windows so please use that package from now on. All future development will be on [Picoh Python](https://github.com/ohbot/picoh-python). 
+The main [picoh-python](https://github.com/ohbot/picoh-python) library now supports Windows so this version is deprecated. All future development will be on [picoh-python](https://github.com/ohbot/picoh-python). 
 
 
-# Ohbot for Python (Windows Version)
+# Ohbot for Python (Windows Version) - ****Deprecated****
 
 <a href="http://whoosh.co.uk/ohbothelp/images/eyes.gif" target="_blank"><img src="http://whoosh.co.uk/ohbothelp/images/eyes.gif" border="0" width = "30%"/></a>
 
