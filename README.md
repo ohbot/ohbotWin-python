@@ -1,4 +1,4 @@
-The main [picoh-python](https://github.com/ohbot/picoh-python) library now supports Windows so this version is deprecated. All future development will be on [picoh-python](https://github.com/ohbot/picoh-python). 
+The main [ohbot-python](https://github.com/ohbot/ohbot-python) library now supports Windows so this version is deprecated. All future development will be on [ohbot-python](https://github.com/ohbot/ohbot-python). 
 
 
 # Ohbot for Python (Windows Version) - ****Deprecated****
