@@ -1,3 +1,6 @@
+The main [Picoh Python package] (https://github.com/ohbot/picoh-python) now supports Windows so please use that package from now on. All future development will be on [Picoh Python] (https://github.com/ohbot/picoh-python). 
+
+
 # Ohbot for Python (Windows Version)
 
 <a href="http://whoosh.co.uk/ohbothelp/images/eyes.gif" target="_blank"><img src="http://whoosh.co.uk/ohbothelp/images/eyes.gif" border="0" width = "30%"/></a>
